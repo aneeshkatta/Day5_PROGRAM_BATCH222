@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Day5_Batch222
 {
-     class program
+     class Program
     {
         static void Main()
         {
@@ -19,40 +19,41 @@ namespace Day5_Batch222
                     obj.flipcoin();
                     break;
                 case 2:
-                    Leapyear obj = new Leapyear();
-                    obj.leapyear();
+                    Leapyear obj1 = new Leapyear();
+                    obj1.leapyear();
                     break;
                 case 3:
-                    Poweroftwo obj= Poweroftwo()
-                    obj.poweroftwo();
+                    Poweroftwo obj2 = new Poweroftwo();
+                    obj2.poweroftwo();
                     break;
                 case 4:
-                    HarmonicNo obj = new HarmonicNo();
-                    obj.harmonicno();
+                    HarmonicNo obj3 = new HarmonicNo();
+                    obj3.harmonicno();
                     break;
                 case 5:
-                    PrimeFactor obj = new PrimeFactor();
-                    obj.primefactor();
+                    PrimeFactor obj4 = new PrimeFactor();
+                    obj4.primefactor();
                     break;
                 case 6:
-                    QuotientRem obj = new QuotientRem();
-                    obj.quotientrem();
+                    QuotientRem obj5 = new QuotientRem();
+                    obj5.quotientrem();
                     break;
                 case 7:
-                    Swapnum obj = new Swapnum();
-                    obj.swapnum();
+                    Swapnum obj6 = new Swapnum();
+                    obj6.swapnum();
                     break;
                 case 8:
-                    Evenodd obj = new Evenodd();
-                    obj.evenodd();
+                    Evenodd obj7 = new Evenodd();
+                    obj7.evenodd();
                     break;
                 case 9:
-                    Vowelcons = new Vowelcons();
-                    obj.vowelcons();
+                    Vowelcons obj8 = new Vowelcons();
+                    obj8.vowelcons();
                     break;
                 case 10:
-                    Largest3Nos obj = new Largest3Nos();
-                    obj.largest3Nos();
+                    Largest3Nos obj9 = new Largest3Nos();
+                    obj9.largest3Nos();
+                    break;
                 default:
                     Console.WriteLine("Enter between 1-10 no.s only");
                     break;
